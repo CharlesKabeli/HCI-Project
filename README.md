@@ -21,12 +21,12 @@ You can visit the main website here: [Sesotho Language Learning Platform](http:/
 
 To get started with the project, follow these steps:
 
-1. Clone the repository to your local machine:
+1. Navigate to the `htdocs` folder in `xampp` on command prompt terminal to clone the repository to your local machine then copy this code:
     ```sh
     git clone https://github.com/CharlesKabeli/HCI-Project.git
     ```
 
-2. Navigate to the project directory to check if the repository has been cloned.
+2. Manually check if the repository has been cloned.
 
 
 3. Import the `sesotho.sql` database found in the `database` folder to your XAMPP localhost:
