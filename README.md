@@ -26,15 +26,11 @@ To get started with the project, follow these steps:
     git clone https://github.com/CharlesKabeli/HCI-Project.git
     ```
 
-2. Navigate to the project directory:
-    ```sh
-    cd HCI-Project
-    ```
+2. Navigate to the project directory to check if the repository has been cloned.
 
-3. Import the `sesotho.sql` database found in the `database` folder to your localhost:
-    ```sh
-    mysql -u root -p sesotho < database/sesotho.sql
-    ```
+
+3. Import the `sesotho.sql` database found in the `database` folder to your XAMPP localhost:
+   
 
 4. Ensure your server is configured correctly to display images and allow user logins using the credentials in the database.
 
@@ -43,5 +39,3 @@ To get started with the project, follow these steps:
 Once the database is set up, you can start your local server and access the website through your browser. Log in using the credentials stored in the database to explore the new features.
 
 ---
-
-We hope this project enhances your Sesotho language learning experience. Happy learning!
