@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/finally.webp);
+    color: white; 
+    font-weight: bold; 
+}
+
+
+
+.wrapper {
+    opacity: 0;
+    border: 2px solid transparent;
+    display: flex;
+    height: 450vh;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid gray;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: black;
+}
+
+th {
+    background-color: blue;
+	color: white;
+}
+
+tr {
+    background-color: white;
+}
+
+.button-delete {
+    background-color: blue;
+    color: white;
+}
+
+.button-delete:hover {
+    background-color: green;
+}
+#homeBtn {
+    border: 0;
+    background: blue;
+    display: list;
+    margin: 20px auto;
+    text-align: center;
+    border: grey;
+    padding: 14px 35px;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 28px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#homeBtn:hover {
+    background-color: green;
+}
+#btn {
+    border: 0;
+    background: blue;
+    display: list;
+    margin: 20px auto;
+    text-align: center;
+    border: grey;
+    padding: 14px 35px;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 28px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: green;
+}
+
+
+
+img{
+	display:border;
+	border-radius:100px;
+	margin-left:10px;
+	margin-bottom:20px;
+	margin-right:630px;
+	}
